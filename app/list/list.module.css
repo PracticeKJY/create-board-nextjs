@@ -1,0 +1,48 @@
+.listBg {
+  margin: 0 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgb(249, 250, 255);
+  padding: 10px;
+}
+.listItem {
+  background: white;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 5px;
+  box-shadow: rgb(224, 224, 224) 0px 2px 4px 0px;
+}
+
+.listItemContainer {
+  margin-bottom: 20px;
+}
+
+.listItemContainer:hover .listItem h4,
+.listItemContainer:hover .listItem p {
+  box-shadow: none;
+  transform: scale(1);
+}
+.listItemContainer :hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  transform: scale(1.03);
+  transition: transform 1s, box-shadow 0.5s;
+}
+.listItem h4 {
+  font-size: 1.3rem;
+  font-weight: 800;
+  margin: 0;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.listItem h4:hover {
+  color: rgb(23, 141, 209);
+  transition: 0.5s;
+}
+
+.listItem p {
+  font-size: 0.85rem;
+  color: grey;
+  margin: 5px 0px;
+}
